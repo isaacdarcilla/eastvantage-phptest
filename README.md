@@ -20,12 +20,12 @@ The folder structure explanation below:
 
     .
     ├── ...
-    ├── database # Main exam folder
-    │ ├── Http # The connection and query classes
-    │ ├── Model # The model or entity class, we can add more classes base on database table.
-    │ ├── autoload.php # Autoloader class
-    │ ├── config.ini # Configuration file
-    │ └── index.php # Test script
+    ├── database            # Main exam folder
+    │ ├── Http              # The connection and query classes
+    │ ├── Model             # The model or entity class, we can add more classes base on database table.
+    │ ├── autoload.php      # Autoloader class
+    │ ├── config.ini        # Configuration file
+    │ └── index.php         # Test script
     └── ...
 
 The pattern that I've used is easier to maintain and reuse because it uses proper
