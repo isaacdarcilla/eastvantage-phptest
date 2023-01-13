@@ -44,6 +44,19 @@ So for example, we can implement a new `users` table and model.
 We can simply do this as...
 
 ```php
+<?php
+
+namespace database\Model;
+
+use database\Http\Model;
+
+class User extends Model
+{
+    protected static $table = 'users';
+}
+```
+
+```php
 $users = User::all();   // Get all users, just like Laravel!
 ```
 
