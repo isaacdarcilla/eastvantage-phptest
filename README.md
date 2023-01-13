@@ -2,9 +2,9 @@
 
 #### 1. The problem and bad practices.
 
-The `old code` is a good code as it also uses OOP, but it does now use the fully potential.
+The `old code` is a good code as it also uses OOP, but it does not use the full potential.
 First, I've analyzed that the problem lies in the structure, basically, if a developer wants to add
-a new database table e.g. `users` table, the developer also want to add a new `Manager` class e.g. `UserManager`
+a new database table e.g. `users` table, the developer also have to add a new `Manager` class e.g. `UserManager`
 for that table. Therefore, the developer also need to add methods corresponding to that manager class, all the HTTP
 request or
 queries needed. So technically, the developer always repeats the code or retypes every same concept in each manager
@@ -14,7 +14,7 @@ there are no `inheritance` or `extended classes` to another classes therefore no
 
 #### 2. Explain or discuss the changes or improvements you’ve made in the codes.
 
-We can find the rewritten code and the full-implementation in the `database` folder.
+We can find the rewritten code and the full implementation in the `database` folder.
 First, as you can see I have structured the folder in a manner in which it is easier to locate and organise files.
 The folder structure explanation below:
 
