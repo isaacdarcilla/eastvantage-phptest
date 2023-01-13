@@ -42,4 +42,17 @@ The `Model` folder has all the entities to corresponding tables, we can add as m
 
 To further check, there are code comments included in the classes and methods.
 
+To test the code, simple run the command in the console:
+
+`$ php database/index.php`
+
+This will print...
+
+>this is the description of our fist news<br>
+this is the description of our second news<br>
+this is the description of our third news<br>
+this is the description of our fist news<br>
+i have no opinion about that<br>
+news 2<br>
+
 -- [Isaac Arcilla](https://isaacdarcilla.framer.website)
