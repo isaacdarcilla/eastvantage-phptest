@@ -18,15 +18,15 @@ We can find the rewritten code and the full-implementation in the `database` fol
 First, as you can see I have structured the folder in a manner in which it is easier to locate and organise files.
 The folder structure explanation below:
 
-.
-├── ...
-├── database # Main exam folder
-│ ├── Http # The connection and query classes
-│ ├── Model # The model or entity class, we can add more classes base on database table.
-│ ├── autoload.php # Autoloader class
-│ ├── config.ini # Configuration file
-│ └── index.php # Test script
-└── ...
+    .
+    ├── ...
+    ├── database # Main exam folder
+    │ ├── Http # The connection and query classes
+    │ ├── Model # The model or entity class, we can add more classes base on database table.
+    │ ├── autoload.php # Autoloader class
+    │ ├── config.ini # Configuration file
+    │ └── index.php # Test script
+    └── ...
 
 The pattern that I've used is easier to maintain and reuse because it uses proper
 OOP and inheritance rules. The core lies in the `Http` folder, the `Connection::class`
@@ -54,5 +54,7 @@ this is the description of our third news<br>
 this is the description of our fist news<br>
 i have no opinion about that<br>
 news 2<br>
+
+You can track the commit here: https://github.com/isaacdarcilla/eastvantage-phptest/commit/3f334a3d597003e0bfd318d0de5b918db6a5030f
 
 -- [Isaac Arcilla](https://isaacdarcilla.framer.website)
