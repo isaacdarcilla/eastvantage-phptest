@@ -40,6 +40,13 @@ we can easily scale and add queries like `updates`, `delete`, and `create`.
 The `Model` folder has all the entities to corresponding tables, we can add as many as we want as long as we inherit the
 `Model::class` in the `Http` folder.
 
+So for example, we can implement a new `users` table and model.
+We can simply do this as...
+
+```php
+$users = User::all();   // Get all users, just like Laravel!
+```
+
 To further check, there are code comments included in the classes and methods.
 
 To test the code, simple run the command in the console:
